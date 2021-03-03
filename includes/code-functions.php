@@ -31,4 +31,6 @@ function custom_content_shortcode_roteiros() {
 }
 
 add_action('destination_term_new_form_tag', 'custom_content_shortcode_roteiros');
+add_action('activities_term_new_form_tag', 'custom_content_shortcode_roteiros');
+add_action('trip_types_term_new_form_tag', 'custom_content_shortcode_roteiros');
 
