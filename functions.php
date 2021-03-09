@@ -22,7 +22,7 @@ Description: Voucher Tec - Shortcode é um plugin destinado a geração de códi
 
 
 
-Version: 1.0.0
+Version: 1.0.2
 
 
 
@@ -70,14 +70,13 @@ License: GPLv2
 
 
 
-require_once 'plugin-update-checker-4.10/plugin-update-checker.php';
+require_once 'plugin-update-checker-4.10/plugin-update-checker.php'; 
 
 
-
+require_once plugin_dir_path(__FILE__) . 'includes/class-wp-travel-engine-destinations.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-wp-travel-engine-types.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-wp-travel-engine-activities.php';
 require_once plugin_dir_path(__FILE__) . 'includes/code-functions.php';
-
-
-
 
 
 
