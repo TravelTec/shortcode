@@ -21,8 +21,8 @@ GitHub Plugin URI: https://github.com/TravelTec/shortcode
 Description: Voucher Tec - Shortcode é um plugin destinado a geração de códigos rápidos para inserção dos plugins de roteiros e aéreo da Travel Tec.
 
 
-
-Version: 1.0.2
+ 
+Version: 1.0.3
 
 
 

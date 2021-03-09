@@ -34,7 +34,7 @@ add_action('destination_term_new_form_tag', 'custom_content_shortcode_roteiros')
 add_action('activities_term_new_form_tag', 'custom_content_shortcode_roteiros');
 add_action('trip_types_term_new_form_tag', 'custom_content_shortcode_roteiros');
 
-
+ 
         $plugin_shortcode = new Wp_Travel_Engine_Destinations();
 
         $plugin_shortcode->init();
@@ -47,7 +47,7 @@ add_action('trip_types_term_new_form_tag', 'custom_content_shortcode_roteiros');
 
         $plugin_shortcode->init();
 
-
+ 
 
 function scripts_js() {
     wp_enqueue_script( 'jquery', plugins_url( '/assets/js/jquery-3.1.1.min.js', __FILE__ ));
